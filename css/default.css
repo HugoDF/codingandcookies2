@@ -1,6 +1,7 @@
 body{
   font-family: 'Helvetica', sans-serif;
   color: #eee;
+  margin: 0;
 }
 a{
   text-decoration: none;
@@ -50,4 +51,15 @@ li{
   display: inline-block;
   margin-left: 10px;
   font-weight: 100;
+}
+
+.page-content{
+  padding-top: 50px;
+  width: 100%;
+}
+.hero-section{
+  background-image: url('../img/hero.jpg');
+  background-size: cover;
+  height: 700px;
+  width: 100%;
 }
