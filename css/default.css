@@ -116,3 +116,7 @@ h1{
   max-width: 1024px;
   margin: auto;
 }
+img{
+  width: 100%;
+}
+}
