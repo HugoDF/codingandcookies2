@@ -1,0 +1,8 @@
+@media screen and (max-width: 720px){
+  .logo{
+    display: none;
+  }
+  .title{
+    font-size: 25px;
+  }
+}
