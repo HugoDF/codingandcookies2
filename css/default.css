@@ -24,12 +24,24 @@ li{
   max-width: 1024px;
   margin: auto;
 }
-.logo{
+.title{
   float: left;
   margin-top: 8px;
   font-weight: bold;
   letter-spacing: 5px;
   font-size: 30px;
+}
+.logo{
+  position: absolute;
+  left: calc(50% - 20px);
+  right: calc(50% - 20px);
+  width: 40px;
+  text-align: center;
+  top :15px;
+  font-size: 50px;
+}
+.logo a:hover{
+  border-bottom: none;
 }
 .nav-right{
   float: right;
