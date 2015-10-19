@@ -1,6 +1,6 @@
 body{
   font-family: 'Helvetica', sans-serif;
-  color: #eee;
+  color: #fff;
   margin: 0;
   /*background-color: #333;*/
 }
@@ -66,8 +66,9 @@ li{
   width: 100%;
   position: relative;
   color: white;
+  text-align: center;
 }
-.hero-section:after{
+.hero-section:before{
   content: '';
   background: rgba(0,0,0,.5);
   z-index: 0;
@@ -76,4 +77,33 @@ li{
   top: 0;
   height: 100%;
   width: 100%;
+}
+.hero-content{
+  position: relative;
+  z-index: 1;
+  padding-top: 200px;
+  display: inline-block;
+}
+.hero-content h1{
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 100px;
+}
+.hero-content form input{
+  font-size: 30px;
+  padding: 10px;
+  outline: none;
+  border: none;
+}
+.button{
+  font-size: 30px;
+  padding: 10px;
+  outline: none;
+  color: white;
+  background-color: #ff5a5f;
+  border:none;
+}
+.button:hover{
+  background-color: #ff7f7f;
+  cursor: pointer;
 }
