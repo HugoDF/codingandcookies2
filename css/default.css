@@ -2,7 +2,7 @@ body{
   font-family: 'Helvetica', sans-serif;
   color: #fff;
   margin: 0;
-  /*background-color: #333;*/
+  background-color: #333;
 }
 a{
   text-decoration: none;
@@ -15,6 +15,25 @@ li{
   list-style-type: none;
   padding-left: 0;
 }
+h1{
+  font-weight: 400;
+  letter-spacing: 3px;
+  margin-bottom: 100px;
+}
+.button{
+  font-size: 30px;
+  padding: 10px;
+  outline: none;
+  color: white;
+  background-color: #ff5a5f;
+  border:none;
+}
+.button:hover{
+  background-color: #ff7f7f;
+  cursor: pointer;
+}
+
+
 .header-nav{
   position: fixed;
   top: 0;
@@ -55,6 +74,7 @@ li{
   font-weight: 100;
 }
 
+
 .page-content{
   padding-top: 50px;
   width: 100%;
@@ -84,26 +104,15 @@ li{
   padding-top: 200px;
   display: inline-block;
 }
-.hero-content h1{
-  font-weight: 400;
-  letter-spacing: 3px;
-  margin-bottom: 100px;
-}
 .hero-content form input{
   font-size: 30px;
   padding: 10px;
   outline: none;
   border: none;
 }
-.button{
-  font-size: 30px;
-  padding: 10px;
-  outline: none;
-  color: white;
-  background-color: #ff5a5f;
-  border:none;
-}
-.button:hover{
-  background-color: #ff7f7f;
-  cursor: pointer;
+
+
+.listings-section{
+  max-width: 1024px;
+  margin: auto;
 }
