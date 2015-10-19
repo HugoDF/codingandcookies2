@@ -2,6 +2,7 @@ body{
   font-family: 'Helvetica', sans-serif;
   color: #eee;
   margin: 0;
+  /*background-color: #333;*/
 }
 a{
   text-decoration: none;
@@ -20,6 +21,7 @@ li{
   left: 0;
   width: 100%;
   background-color: #000;
+  z-index: 99;
 }
 .container{
   max-width: 1024px;
@@ -61,5 +63,17 @@ li{
   background-image: url('../img/hero.jpg');
   background-size: cover;
   height: 700px;
+  width: 100%;
+  position: relative;
+  color: white;
+}
+.hero-section:after{
+  content: '';
+  background: rgba(0,0,0,.5);
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
 }
