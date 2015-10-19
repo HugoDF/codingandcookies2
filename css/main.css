@@ -7,6 +7,13 @@
   padding-bottom: 15px;
   float:right;
 }
+.listing{
+  display: inline-block;
+  width: 32%;
+}
+.listing .description{
+  display: none;
+}
 @media screen and (max-width: 720px){
   .logo{
     display: none;
@@ -29,8 +36,34 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 1024px){
+  .listing{
+    width: 49%;
+  }
+}
+@media screen and (max-width: 572px){
+  .listing{
+    width: 100%;
+  }
+}
 @media screen and (min-width: 720px){
   .mobile-menu-toggle{
     display: none;
   }
+}
+
+.listing{
+  transition: all .25s linear;
+}
+.listing.open{
+  width: 100%;
+}
+.listing.open img{
+  width: 50%;
+  float:left;
+}
+.listing.open .description{
+  display: inline-block;
+  float:left;
+  width: 50%;
 }
